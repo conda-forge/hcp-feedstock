@@ -1,4 +1,4 @@
-{% set version = "0.9.0" %}
+{% set version = "0.9.1" %}
 
 package:
   name: hcp
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/hashicorp/hcp/archive/v{{ version }}.tar.gz
-  sha256: f9158ccc6379ef54e7415087a6325777a7f2757f5142fbc2fd5ecb83c04a2480
+  sha256: f7867437e8da2391ff3812ded272104705cf1677cb8ca94e4292846c796aa672
 
 build:
   number: 0
